@@ -1,0 +1,10 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://root:1234@localhost:27017/admin
+      authentication-database: admin
+logging:
+  level:
+    org.springframework.data.mongodb.core.MongoTemplate: debug
+    org.springframework.data.mongodb.repository.query: debug
+    root: debug
